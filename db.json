@@ -11,8 +11,7 @@
   "profile": {
     "name": "typicode"
   }
-  "menuOrganizador":
-  {
+  "menuOrganizador": {
    "areaPreUrl": "organizer",
    "sections": [
       {
