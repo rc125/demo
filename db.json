@@ -11,4 +11,95 @@
   "profile": {
     "name": "typicode"
   }
+  "menuOrganizador":
+  {
+   "areaPreUrl": "organizer",
+   "sections": [
+      {
+         "title": "Gestão",
+         "items": [
+            {
+               "menuTitle": "Painel",
+               "menuIcon": "fa-tachometer",
+               "menuLink": "/dashboard"
+            },
+            {
+               "menuTitle": "Pessoas",
+               "menuIcon": "fa-users",
+               "menuLink": "/atendees"
+            },
+            {
+               "menuTitle": "Vendas",
+               "menuIcon": "fa-sack-dollar",
+               "menuLink": "/sales"
+            }
+         ]
+      },
+      {
+         "title": "Pré-evento",
+         "items": [
+            {
+               "menuTitle": "Inscrições",
+               "menuIcon": "fa-ticket",
+               "menuLink": "/tickets"
+            },
+            {
+               "menuTitle": "Programação",
+               "menuIcon": "fa-calendar",
+               "menuLink": "/schedule"
+            },
+            {
+               "menuTitle": "Submissões",
+               "menuIcon": "fa-copy",
+               "menuLink": "/call-for-papers"
+            },
+            {
+               "menuTitle": "Página do Evento",
+               "menuIcon": "fa-browser",
+               "menuLink": "/landing-page"
+            }
+         ]
+      },
+      {
+         "title": "Evento",
+         "items": [
+            {
+               "menuTitle": "Transmissão Online",
+               "menuIcon": "fa-play",
+               "menuLink": "/streaming"
+            }
+         ]
+      },
+      {
+         "title": "Pós-evento",
+         "items": [
+            {
+               "menuTitle": "Certificados",
+               "menuIcon": "fa-file-certificate",
+               "menuLink": "/certificate"
+            },
+            {
+               "menuTitle": "Pesquisa de satisfação",
+               "menuIcon": "fa-clipboard-list-check",
+               "menuLink": "/survey"
+            }
+         ]
+      },
+      {
+         "title": "Misc",
+         "items": [
+            {
+               "menuTitle": "Configuração",
+               "menuIcon": "fa-cogs",
+               "menuLink": "/configuration"
+            },
+            {
+               "menuTitle": "Loja",
+               "menuIcon": "fa-shopping-bag",
+               "menuLink": "/extras"
+            }
+         ]
+      }
+   ]
+}
 }
